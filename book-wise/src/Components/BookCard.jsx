@@ -4,7 +4,7 @@ export default function BookCard({ book }) {
   return (
     <div className="card">
       <img
-        src={info.imageLinks?.thumbnail}
+        src={info.imageLinks?.thumbnail || "https://via.placeholder.com/150"}
         alt="book"
       />
       <h3>{info.title}</h3>
