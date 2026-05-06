@@ -1,7 +1,7 @@
 export default function About() {
   return (
     <div className="page">
-      <h1>About 📖</h1>
+      <h1>About</h1>
       <p>
         BookWise is a simple book recommendation app built using React and
         Google Books API.

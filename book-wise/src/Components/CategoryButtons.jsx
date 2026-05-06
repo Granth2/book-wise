@@ -1,5 +1,5 @@
 export default function CategoryButtons({ onSelect }) {
-  const categories = ["fiction", "self help", "mystery", "technology"];
+  const categories = ["Fiction", "Self Help", "Mystery", "Technology"];
 
   return (
     <div className="btns">
